@@ -1,0 +1,16 @@
+<configuration>
+  <property>
+    <name>hive.server2.thrift.bind.host</name>
+    <value>node01</value>
+  </property>
+  <property>
+    <name>hive.server2.enable.doAs</name>
+    <value>false</value>
+  </property>
+  <property>
+    <name>hive.metastore.uris</name>
+    <value>thrift://node01:9083</value>
+    <description>Thrift URI for the remote metastore. Used by metastore client to connect to remote m
+etastore.</description>
+  </property>
+</configuration>
